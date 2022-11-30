@@ -94,8 +94,9 @@ class CountryCodeFlag extends StatelessWidget {
       child: Image.asset(
         flagUri,
         package: 'fl_country_code_picker',
-        width: 22,
-        height: 22,
+        width: 30,
+        height: 30,
+        fit: BoxFit.fitHeight,
       ),
     );
   }
