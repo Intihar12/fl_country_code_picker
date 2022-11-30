@@ -90,12 +90,12 @@ class CountryCodeFlag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
-      borderRadius: BorderRadius.circular(300.0),
+      borderRadius: BorderRadius.circular(300),
       child: Image.asset(
         flagUri,
         package: 'fl_country_code_picker',
-        width: 30,
-        height: 30,
+        width: 20,
+        height: 20,
         fit: BoxFit.fitHeight,
       ),
     );
