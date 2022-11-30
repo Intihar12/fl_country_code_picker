@@ -89,10 +89,14 @@ class CountryCodeFlag extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Image.asset(
-      flagUri,
-      package: 'fl_country_code_picker',
-      width: 32,
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(300.0),
+      child: Image.asset(
+        flagUri,
+        package: 'fl_country_code_picker',
+        width: 22,
+        height: 22,
+      ),
     );
   }
 }
